@@ -1,13 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
 :root{
-  --primary-color:purple;
+  --primary-color:#7C3AED;
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
+/* hr */
+hr{
+    margin: 2rem 0rem;
+}
 /* container */
 .container{
 padding-left: 1rem;
@@ -36,12 +40,15 @@ color: white;
 }
 
 .secondary-link{
-    background-color: var(--primary-color);
+  color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
   
 
 }
+/* lists */
+
+
 
 
 
