@@ -32,7 +32,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    color:white;
+    
 
 }
 
@@ -40,6 +40,7 @@ hr {
 
     background-color: var(--primary-color);
     border-radius: 0.5rem;
+
    
 }
 
@@ -82,6 +83,8 @@ font-size: 1.1rem;
 }
 
 .navlink{
+    font-weight: bold;
+    text-decoration: none;
     color: #ffffff;
 
 
@@ -136,6 +139,11 @@ font-size: 1.1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 .footer .link{
     color: white;
