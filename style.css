@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
     --primary-color: #7C3AED;
@@ -80,13 +80,22 @@ font-size: 1.1rem;
 }
 
 .navlink{
-    color: white;
- 
-    
+    color: #ffffff;
+
+
 }
 .link-active{
     font-weight: bold;
     text-decoration: none;
 }
 
+/* header */
 
+.hero{
+    padding: 2rem;
+}
+.hero-image{
+    max-width: 350px;
+    display: block;
+   margin: auto;
+}
