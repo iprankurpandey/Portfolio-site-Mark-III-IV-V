@@ -11,6 +11,20 @@ body {
     margin: 0rem;
 }
 
+.description{
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+}
+
+.blog-center {
+    max-width: 600px;
+    margin: auto;
+    display: block;
+    font-size: large;
+}
+
+
 /* hr */
 hr,br {
     margin: 3rem 0rem;
